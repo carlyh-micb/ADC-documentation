@@ -26,8 +26,14 @@ The README tab is for your reference, and you can add some metadata here (like t
 
 # Entering schema information
 
+## Required fields
+All Capture Base (CB) fields are required as well as two Overlays (OL): Character Encoding and Format.
+
+## Classification
+On the Main tab, under Classification you can add classifications for each attribute. This overlay is not standardized but it is recommended to be in the format system:type. For example, to add classifications for sustainable development goals for each attribute you can use "SDG:15"
+
 ## Attribute Names
-On the Main tab, under Attribute Names add your unique list of attribute names which can be the column label (or a simplified version of the column label).
+On the Main tab, under Attribute Names add your unique list of attribute names which can be the column label (or a simplified version of the column label). Because this field may be used by many different computer systems we recommend to not include spaces and use underscores or CamelCase instead.
 
 ## Attribute Types
 On the Main tab specify the Attribute Type, which should be one of the following:
@@ -40,10 +46,11 @@ On the Main tab specify the Attribute Type, which should be one of the following
  * **Array** [attribute type]: a data type that defines a structure that holds several data items or elements of the same data type. 
 
 ## Sensitive or personal data flagging
-On the Main tab specify Flagged Attribute for sensitive data. Marking an entry with a “Y” will allow you to flag any attributes where identifying information about entities may be captured. With Flagged Attributes, all corresponding data can be treated as high-risk throughout the data lifecycle and encrypted or removed at any stage, reducing the risk of re-identification attacks against blinded datasets.
+On the Main tab specify Flagged Attribute for sensitive data. Marking an entry with a “Y” will allow you to flag any attributes where identifying information about entities may be captured. 
+
+With Flagged Attributes marked Y all corresponding data can be treated as high-risk throughout the data lifecycle and encrypted or removed at any stage, reducing the risk of re-identification attacks against blinded datasets.
 
 ## Character encoding and format
-
 Character Encoding is on the Main tab. The recommended choice is utf-8 (Unicode Transformation Format – 8 bits) unless there is a very specific reason for this to be different.
 
 The Format Overlay defines the input and display format of the data field. 
@@ -51,7 +58,6 @@ The Format Overlay defines the input and display format of the data field.
 Types of formats are: YYYY-MM-DD for date, image/jpeg, [A-Z0-9]{8} (8 character long alpha-numeric entry). If left blank the default is text.
 
 ## Limiting data entry to a choice from a list (i.e. drop-down menu)
-
 To limit data input to only a select number of choices (like in a drop-down menu) use:
 
 1. Attribute Type: use array[text] or array[numeric] for the Attribute Type 
@@ -72,7 +78,6 @@ Example 2: to limit bee types to only two choices
 4. In the language tab for Entry: "501:Carniolan honey bee|527:Russian honey bee" for English and "501:Abeille de Carniole|527:Abeille russe" for French
 
 ## English language details
-
 Attribute Names are automatically copied from Main tab into the Attribute Name of each language tab.
 
 Meta[Form Name] column is a single cell entry for schema name (e.g. “Biodiversity Schema”) 
@@ -82,7 +87,6 @@ Meta[Form Description] is a single cell entry for a description of your schema (
 These details will help make your schema more discoverable and can help people confirm that they have the right schema when they find yours.
 
 ## Adding language specific labels and more information
-
 Each language specific tab is where you add language specific details to your schema. 
 
 Labels are more reader friendly labels of attribute. If you are creating a questionnaire, the Label would be where you put the full text of your question.
@@ -93,7 +97,7 @@ Information contains details to help users of your schema understand exactly wha
 
 The [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) is currently hosted at Human Colossus Foundation in the first phase of development. 
 
-Uploadi the Excel document into the parser to create the OCA Bundle. 
+Upload the Excel document into the parser to create the OCA Bundle. 
 
 The OCA Bundle contains the Capture Base and its associated Overlays into an archival (.zip) format. 
 
