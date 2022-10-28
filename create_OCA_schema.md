@@ -104,16 +104,28 @@ You can open the archive and view the JSON code that describes each Capture Base
 
 # What to do with your OCA bundle
 
-## Local Archive together with the associated data
+## Archive together with the associated data
+The simplest thing you can do with your OCA schema is to save the bundle together with the Excel template with, or close to, your data on a local or lab associated drive. This will help your data to be understandable when you or others reference the data later. When it comes time to submit data into a repository or journal you will be able to quickly and accurately describe the data using the requested format by looking at the OCA schema. 
+
+As ADC expands on the tools associated with OCA you will have the schemas prepared.
+
+## Share with collaborators
+The OCA schema bundle (together with Excel template) can be shared with your collaborators if you are working on collecting the same types of data. Sharing the schemas early in the collaboration means that it will be easier to harmonize the data during analysis. You can collectively improve the schema by updating the template together and creating new schema bundles.
+
+You can confirm that you and your collaborators are using the same schemas by comaring in the [SAIDs](identifiers_and_saids.md) associted with each bundle or individual Capture Base or Overlay.
 
 ## Generate a DOI and publish the schema separately in a repository
+For the polished, finalized versions of your schema you can create a separate dataverse/borealis submission which contains the collection of your schema versions. This will ensure that your schema is given a DOI persistent identifier that can be referenced in publications. We also recommend that you record the SAIDs of your Capture Base and match them to versions in a separate document.
 
-### reference in a publication
+This methodology is a work in progress and we are interested in working with researchers to develop best practices and recommendations.
 
-## Generate a form for filling out
+## Generate a form from the OCA schema bundle
+Currently [under development](https://browser.oca.argo.colossi.network/#/preview).
 
 ## Generate an Excel sheet for data entry based on the schema
+The functionality we seek to develop will enable researchers to upload an OCA schema bundle and generate an annotated Excel sheet prepopulated for data entry. The advantage is that active research data will automatically contain complete descriptions of data making it easy to have data that is easy to understand through all phases of active research.
 
+This feature is under development and we are seeking feedback from researchers.
 
 
 
