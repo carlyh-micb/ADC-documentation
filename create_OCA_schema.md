@@ -117,6 +117,14 @@ For the polished, finalized versions of your schema you can create a separate [U
 
 This methodology is a work in progress and we are interested in working with researchers to develop best practices and recommendations.
 
+## Publish it in an OCA specific repository
+This is a feature that is currently under development at ADC and we are looking for feedback from researchers about requirements. We seek to create an OCA repository model, that can be federated across Canada so that other instutitions can host a schema repository to meet their user needs but remain connected with all other OCA repositories. 
+
+An OCA specific respository will enable additional functionalities of the OCA schema such as creation of additional overlays by other authors or deeper search functionality.
+
+An OCA repository will not be incompatible with depositing the schema in other locations as well because of the properties of the [SAIDs](identifiers_and_saids.md) (self-addressing identifiers). Any schema (and specifically the Capture Base although it applies to all schema components) will have an identifier that is computationally calculated from the content. If the content changes in any small way, the identifier (the SAID) is completely different. If you find two schemas in two different locations but they have the same SIAD you are confident that they are identical.
+
+
 ## Generate a form from the OCA schema bundle
 Currently [under development](https://browser.oca.argo.colossi.network/#/preview).
 
