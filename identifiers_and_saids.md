@@ -26,4 +26,4 @@ Self-Addressing Identifiers are very useful for tracking digital resources and t
 
 Alternatively, if you only have a SAID reference, you can find the corresponding research object (like the OCA bundle or Capture Base) by looking for the identical SAID within those documents. If the SAIDs are the same, then the documents are also identical.  
 
-You can confirm that the SAID is legitimate by performing your own SAID hashing of the research object. By comparing the freshly generated SAID to the claimed SAID you can check if the document or SAID has been altered. 
+You can confirm that the SAID is legitimate by performing your own SAID hashing of the research object. By comparing the freshly generated SAID to the claimed SAID you can check if the document or SAID has been altered. Agri-food Data Canada is currently developing a SAID verifier where you can upload an OCA schema and confirm the SAID.
