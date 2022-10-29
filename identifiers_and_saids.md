@@ -18,7 +18,7 @@ When you create a hash value, you take a digital object, plug it into a one-way 
 
 One important characteristic about hash functions is that they do not work in reverse. If you are given a hash value, you cannot determine what the original content was. This means that if your digital object contains sensitive information, you cannot recreate that data from the hash value. 
 
-For the OCA schema, all parts of the schema and the schema bundle itself are given SAIDs. Each file of the schema bundle is hashed and then the hash value (the SAID) becomes the filename. You can discover the hash value by looking at each JSON filename of the OCA schema, or you can calculate it directly using the SAID hashing function. 
+For the OCA schema, all parts of the schema and the schema bundle itself are given SAIDs. Each file of the schema bundle is hashed and then the hash value (the SAID) becomes the filename. You can discover the hash value by looking at each JSON filename of the OCA schema, by looking at the meta.json file inside a schema bundle, or you can calculate it directly using the SAID hashing function. 
 
 # Benefits of using SAIDs for Research Objects 
 
