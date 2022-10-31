@@ -1,17 +1,20 @@
 # How to create an OCA Schema
 This is a tutorial of how to create an [Overlays Capture Architecture](https://oca.colossi.network/specification/) (OCA) data schema. This technology is currently under active development at [Agri-food Data Canada](https://agrifooddatacanada.ca/) in cooperation with the [Human Colossus Foundation](https://humancolossus.foundation/). 
 
+## Excel template parsed to OCA schema bundle
 By following this tutorial, you will create an Excel template document, upload it to the OCA parser, and generate the OCA schema bundle for download and use.
 Read a [brief background in data schemas, and an introduction to the OCA schema](semantic_engine.md).
 
+## OCA is expressed in JSON
 Overlays Capture Architecture is a machine-readable way to encode a schema expressed in the JSON scripting language. 
 
 Writing a schema in JSON is not very human-friendly, instead we will fill out the schema information in a template Excel spreadsheet. Then we upload this Excel sheet into the semantic engine OCA schema parser, and it will generate the OCA schema bundle. In the future as we develop the Semantic Engine, we can create easier ways to generate these OCA schemas, but in phase 1 of development we use the Excel template.
 
+## Advantages of OCA
 The advantage of OCA schemas is that they are modular. You can start with a very simple design, and because of the OCA layered architecture you can add more functionality to the schema later. The simplest OCA schema has a Capture Base (CB) which defines the basic structure of the data, and some additional overlays (OL) that help the user understand the data. OCA schemas are also shareable and machine-readable. You can publish your OCA schema with an identifier and others can reference and extend your work.
 
 # Capture Base and Overlays Structure of OCA
-**Capture Base (CB)** is a stable base object that defines a single dataset in its purest form. It is good practice to keep the Capture Base stable and consistent. The Capture Base is given an identifier that is derived from its content, and all other overlays will reference this identifier. Furthermore, other users of your schema will confirm the Capture Base by its identifier. If you change even a character of the Capture Base, the identifier will change as well. You can [read more about identifiers and self-addressing identifiers here](identifiers_and_saids.md).
+**Capture Base (CB)** is a stable base object that defines a single dataset in its purest form. It is good practice to keep the Capture Base stable and consistent. The Capture Base is given an identifier that is derived from its content, and all other overlays will reference this identifier. Furthermore, other users of your schema will confirm the Capture Base by its identifier. If you change even a character of the Capture Base, the identifier will change as well. You can [read more about identifiers and self-addressing identifiers(SAIDS) here](identifiers_and_saids.md).
 
 **Overlays (OL)** are additional pieces of the schema that aren’t part of the Capture Base. They reference the identifier of the Capture Base and specify additional information in the schema – such as language specific descriptions of different data columns. Because the Overlays are separate from the Capture Base, they can be added to a Capture Base later without disrupting the Capture Base description and identifier of the data structure.
 
@@ -39,7 +42,7 @@ On the Main tab, under Attribute Names add your unique list of attribute names w
 On the Main tab specify the Attribute Type, which should be one of the following:
 * **Text**: a data type that defines a human-readable sequence of characters and the words they form.
 * **Numeric**: a data type that defines anything relating to or containing numbers. 
-* **Reference**: a data type that defines a Self-Addressing IDentifier (SAID) that references a set of attributes through its associated parent. 
+* **Reference**: a data type that defines a [Self-Addressing IDentifier (SAID)](identifiers_and_saids.md) that references a set of attributes through its associated parent. 
 * **Boolean**: a data type where the data only has two possible variables: true or false.
 * **Binary**: a data type that defines a binary code signal, a series of electrical pulses representing numbers, characters, and performed operations. 
 * **DateTime**: a data type that defines dates. Common formats include dates (e.g., YYYY-MM-DD), times (e.g., hh:mm:ss), dates and times concatenated (e.g., YYYY-MM-DDThh:mm:ss.sss+zz:zz), and durations (e.g., PnYnMnD).
@@ -105,12 +108,14 @@ You can open the archive and view the JSON code that describes each Capture Base
 # What to do with your OCA bundle
 
 ## Archive together with the associated data
-The simplest thing you can do with your OCA schema is to save the bundle and Excel template with your data on a local or lab associated drive. This will help you or others understand your data when referenced later. When it comes time to submit data into a repository or journal you will be able to quickly and accurately describe the data using the requested format by looking at the OCA schema. 
+The simplest thing you can do with your OCA schema is to save the bundle and Excel template with your data on a local or lab associated drive. This will help you or others understand your data when referenced later. When it comes time to submit data into a repository or journal you will be able to quickly and accurately describe the data using the requested format by looking at the OCA schema.
+
+We recommend you record the [SAID](identifiers_and_saids.md) associated with the schema bundle with each dataset which will give you cryptographic verifiability about exactly what schema Capture Base and Overlays you were using with your data.
 
 ## Share with collaborators
 The OCA schema bundle (together with Excel template) can be shared with your collaborators. Sharing the schemas early in the collaboration means that it will be easier to harmonize the data during analysis. You can collectively improve the schema by updating the template together and creating new schema bundles.
 
-You can confirm that you and your collaborators are using the same schemas by comparing in the [SAIDs](identifiers_and_saids.md) associted with each bundle or individual Capture Base or Overlay.
+You can confirm that you and your collaborators are using the same schemas by comparing in the [SAIDs](identifiers_and_saids.md) associated with each bundle or individual Capture Base or Overlay.
 
 ## Generate a DOI and publish the schema separately in a repository
 For the polished, finalized versions of your schema you can create a separate [University of Guelph Dataverse/Borealis submission](https://borealisdata.ca/dataverse/ugardr) to contain your schema versions. This gives your schema a DOI (i.e. persistent identifier) that can be referenced in publications. We also recommend that you record the SAIDs of your Capture Base and match them to versions in a separate document.
