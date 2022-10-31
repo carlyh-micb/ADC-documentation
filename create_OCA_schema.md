@@ -1,7 +1,7 @@
 # How to create an OCA Schema
 This is a tutorial of how to create an [Overlays Capture Architecture](https://oca.colossi.network/specification/) (OCA) data schema. This technology is currently under active development at [Agri-food Data Canada](https://agrifooddatacanada.ca/) in cooperation with the [Human Colossus Foundation](https://humancolossus.foundation/). 
 
-## Excel template parsed to OCA schema bundle
+## An Excel template is parsed to OCA schema bundle
 By following this tutorial, you will create an Excel template document, upload it to the OCA parser, and generate the OCA schema bundle for download and use.
 Read a [brief background in data schemas, and an introduction to the OCA schema](semantic_engine.md).
 
@@ -14,10 +14,11 @@ Writing a schema in JSON is not very human-friendly, instead we will fill out th
 The advantage of OCA schemas is that they are modular. You can start with a very simple design, and because of the OCA layered architecture you can add more functionality to the schema later. The simplest OCA schema has a Capture Base (CB) which defines the basic structure of the data, and some additional overlays (OL) that help the user understand the data. OCA schemas are also shareable and machine-readable. You can publish your OCA schema with an identifier and others can reference and extend your work.
 
 # Capture Base and Overlays Structure of OCA
-**Capture Base (CB)** is a stable base object that defines a single dataset in its purest form. It is good practice to keep the Capture Base stable and consistent. The Capture Base is given an identifier that is derived from its content, and all other overlays will reference this identifier. Furthermore, other users of your schema will confirm the Capture Base by its identifier. If you change even a character of the Capture Base, the identifier will change as well. You can [read more about identifiers and self-addressing identifiers(SAIDS) here](identifiers_and_saids.md).
+**Capture Base (CB)** is a stable base object that defines a single dataset in its purest form. It is good practice to keep the Capture Base stable and consistent because the Capture Base is given an identifier (SAID) that is derived from its content and all other overlays will reference this identifier. Furthermore, other users of your schema will confirm the Capture Base by its SAID identifier. If you change even a character of the Capture Base, the SAID identifier will change as well. 
 
-**Overlays (OL)** are additional pieces of the schema that aren’t part of the Capture Base. They reference the identifier of the Capture Base and specify additional information in the schema – such as language specific descriptions of different data columns. Because the Overlays are separate from the Capture Base, they can be added to a Capture Base later without disrupting the Capture Base description and identifier of the data structure.
+**Overlays (OL)** are additional pieces of the schema that aren’t part of the Capture Base. They reference the SAID identifier of the Capture Base and specify additional information in the schema – such as language specific descriptions of different data columns. Because the Overlays are separate from the Capture Base, they can be added to a Capture Base later without disrupting the Capture Base description and identifier of the data structure.
 
+**OCA uses Self-Addressing Identifiers (SAIDs)** for each part of the schema which are calculated from a hash of each JSON file generated. Each SAID is a unique fingerprint for each file and if you find two files with the same SAIDs then you can be confident the files are identical. Overlays of the schema bundle reference the unique SAID of the Capture Base. You can [read more about identifiers and self-addressing identifiers(SAIDS) here](identifiers_and_saids.md).
 
 # Creating an OCA schema – Excel template
 Download the Excel OCA schema template[link when available].
