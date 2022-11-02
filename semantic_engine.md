@@ -25,7 +25,7 @@ Better data schemas aid researchers in sharing data with the research community.
 
 Effective data schemas can be challenging to write because they require specialized knowledge and time. Agri-food Data Canada is creating a semantic engine to help researchers write better data schemas with less effort. Agri-food Data Canada is developing this semantic engine with the input of researchers to ensure that it meets their needs.
 
-To create the semantic engine, Agri-food Data Canada is partnering with the [Human Colossus Foundation](https://humancolossus.foundation/) to adopt the HCF’s work on [overlays capture architecture](https://oca.colossi.network/) (OCA) as the underlying schema standard. Overlays capture architecture is an extensible, flexible, international, open, and machine-accessible standard for schemas.
+To create the semantic engine, Agri-food Data Canada is partnering with the [Human Colossus Foundation](https://humancolossus.foundation/) (HCF) to adopt the HCF’s work on [overlays capture architecture](https://oca.colossi.network/) (OCA) as the underlying schema standard. Overlays capture architecture is an extensible, flexible, international, open, and machine-accessible standard for schemas.
 
 ![The Human Colossus Foundation has developed overlays capture architecture (OCA), which is an open, international standard for data schemas. Agri-food Data Canada is adopting and adapting OCA in partnership with the Human Colossus Foundation](/pictures/semantic-engine-hcf-adc.png)
 
