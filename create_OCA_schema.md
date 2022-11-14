@@ -108,22 +108,22 @@ You can open the archive and view the JSON code that describes each Capture Base
 
 # What to do with your OCA bundle
 
-## Archive together with the associated data
+## Archive the OCA bundle together with the associated data
 The simplest thing you can do with your OCA schema is to save the bundle and Excel template with your data on a local or lab associated drive. This will help you or others understand your data when referenced later. When it comes time to submit data into a repository or journal you will be able to quickly and accurately describe the data using the requested format by looking at the OCA schema.
 
 We recommend you record the [SAID](identifiers_and_saids.md) associated with the schema bundle with each dataset which will give you cryptographic verifiability about exactly what schema Capture Base and Overlays you were using with your data.
 
-## Share with collaborators
+## Share the OCA bundle with collaborators
 The OCA schema bundle (together with Excel template) can be shared with your collaborators. Sharing the schemas early in the collaboration means that it will be easier to harmonize the data during analysis. You can collectively improve the schema by updating the template together and creating new schema bundles.
 
 You can confirm that you and your collaborators are using the same schemas by comparing in the [SAIDs](identifiers_and_saids.md) associated with each bundle or individual Capture Base or Overlay.
 
-## Generate a DOI and publish the schema separately in a repository
+## Generate a DOI and publish the OCA schema bundle separately in a repository
 For the polished, finalized versions of your schema you can create a separate [University of Guelph Dataverse/Borealis submission](https://borealisdata.ca/dataverse/ugardr) to contain your schema versions. This gives your schema a DOI (i.e. persistent identifier) that can be referenced in publications. We also recommend that you record the SAIDs of your Capture Base and match them to versions in a separate document.
 
 This methodology is a work in progress and we are interested in working with researchers to develop best practices and recommendations.
 
-## Publish it in an OCA specific repository
+## Publish the OCA schema bundle in an OCA specific repository
 This is a feature that is currently under development at ADC and we are looking for feedback from researchers about requirements. We seek to create an OCA repository model, that can be federated across Canada so that other instutitions can host a schema repository to meet their user needs but remain connected with all other OCA repositories. 
 
 An OCA specific respository will enable additional functionalities of the OCA schema such as creation of additional overlays by other authors or deeper search functionality.
@@ -139,5 +139,7 @@ The functionality we seek to develop will enable researchers to upload an OCA sc
 
 This feature is under development and we are seeking feedback from researchers.
 
+## Validate your data with an OCA schema bundle
+With the creation of an OCA schema bundle, ADC will create the ability to validate a dataset according to the schema bundle specifications. For example, validation would check that dates are written in the way specified by the schema, or that there are no text values (like the letter O) instead of the number zero in a number field.
 
-
+This feature is under development and we are seeking feedback from researchers.
