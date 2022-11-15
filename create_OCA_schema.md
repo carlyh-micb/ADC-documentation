@@ -1,14 +1,14 @@
 # How to create an OCA Schema
-This is a tutorial of how to create an [Overlays Capture Architecture](https://oca.colossi.network/specification/) (OCA) data schema. This technology is currently under active development at [Agri-food Data Canada](https://agrifooddatacanada.ca/) in cooperation with the [Human Colossus Foundation](https://humancolossus.foundation/). 
+This is a tutorial of how to create an [Overlays Capture Architecture](https://oca.colossi.network/specification/) (OCA) data schema. This technology is currently under active development at [Agri-food Data Canada](https://agrifooddatacanada.ca/) in cooperation with the [Human Colossus Foundation](https://humancolossus.foundation/)(HCF). 
 
 ## An Excel template is parsed to OCA schema bundle
 By following this tutorial, you will create an Excel template document, upload it to the OCA parser, and generate the OCA schema bundle for download and use.
 Read a [brief background in data schemas, and an introduction to the OCA schema](semantic_engine.md).
 
 ## OCA is expressed in JSON
-Overlays Capture Architecture is a machine-readable way to encode a schema expressed in the JSON scripting language. 
+Overlays Capture Architecture is a machine-readable way to encode a schema expressed in the JSON scripting language. You can view the JSON file contents using a text editor such as Notepad in windows.
 
-Writing a schema in JSON is not very human-friendly, instead we will fill out the schema information in a template Excel spreadsheet. Then we upload this Excel sheet into the semantic engine OCA schema parser, and it will generate the OCA schema bundle. In the future as we develop the Semantic Engine, we can create easier ways to generate these OCA schemas, but in phase 1 of development we use the Excel template.
+Writing a schema in JSON is not very human-friendly, instead we will fill out the schema information in a template Excel spreadsheet. Then we upload this Excel sheet into the semantic engine OCA schema parser, and it will generate the OCA schema bundle. In the future as we develop the Semantic Engine, we can create easier ways to generate these OCA schemas, but in phase one of development we use the Excel template.
 
 ## Advantages of OCA
 The advantage of OCA schemas is that they are modular. You can start with a very simple design, and because of the OCA layered architecture you can add more functionality to the schema later. The simplest OCA schema has a Capture Base (CB) which defines the basic structure of the data, and some additional overlays (OL) that help the user understand the data. OCA schemas are also shareable and machine-readable. You can publish your OCA schema with an identifier and others can reference and extend your work.
@@ -98,7 +98,7 @@ Information contains details to help users of your schema understand exactly wha
 
 # Convert from Excel to OCA
 
-The [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) is currently hosted at Human Colossus Foundation in the first phase of development. 
+The [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) is currently hosted at Human Colossus Foundation (HCF) in the first phase of development. The Semantic Engine's template is derived from the template found hosted by HCF.
 
 Upload the Excel document into the parser to create the OCA Bundle. 
 
@@ -107,6 +107,9 @@ The OCA Bundle contains the Capture Base and associated Overlays as files bundle
 You can open the archive and view the JSON code that describes each Capture Base and Overlay in any text viewer. The [SAID](identifiers_and_saids.md) identifiers for Overlays, Capture Base and the entire OCA Bundle are the filenames. The "meta.json" file lists all Overlays and Capture Base including their SAID identifiers. 
 
 # What to do with your OCA bundle
+
+## View the contents of the bundle
+You can view the contents by opening the .zip file and viewing the included JSON files using a text editor such as Windows Notepad.
 
 ## Archive the OCA bundle together with the associated data
 The simplest thing you can do with your OCA schema is to save the bundle and Excel template with your data on a local or lab associated drive. This will help you or others understand your data when referenced later. When it comes time to submit data into a repository or journal you will be able to quickly and accurately describe the data using the requested format by looking at the OCA schema.
