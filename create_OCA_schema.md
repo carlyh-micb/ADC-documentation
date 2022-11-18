@@ -16,7 +16,8 @@ The README tab is for your reference, and you should add metadata here (like tit
 # Entering schema information
 Below is an example schema that has been entered into the OCA template. By following the instructions you will be able to create your own schema.
 
-![Example of entering schema information in an OCA Excel template.](/pictures/example-schema.PNG)
+![Example of entering capture base data into the OCA schema template.](/pictures/capture_base.png)
+![Example of entering english overlayd data into the OCA schema template.](/pictures/overlay_en.png)
 
 ## Required fields
 All Capture Base (CB) fields are required as well as two Overlays (OL): Character Encoding and Format.
@@ -134,6 +135,8 @@ This feature is under development and we are seeking feedback from researchers.
 With the creation of an OCA schema bundle, ADC will create the ability to validate a dataset according to the schema bundle specifications. For example, validation would check that dates are written in the way specified by the schema, or that there are no text values (like the letter O) instead of the number zero in a number field.
 
 This feature is under development and we are seeking feedback from researchers.
+
+# More information about OCA
 
 ## OCA is expressed in JSON
 Overlays Capture Architecture is a machine-readable way to encode a schema expressed in the JSON scripting language. You can view the JSON file contents using a text editor such as Notepad in Windows but since JSON files do not usually contain line breaks it is easier to read using a [JSON viewer](https://jsonformatter.curiousconcept.com/).
