@@ -14,6 +14,9 @@ The README tab is for your reference, and you should add metadata here (like tit
 
 
 # Entering schema information
+Below is an example schema that has been entered into the OCA template. By following the instructions you will be able to create your own schema.
+
+![Example of entering schema information in an OCA Excel template.](/pictures/example-schema.PNG)
 
 ## Required fields
 All Capture Base (CB) fields are required as well as two Overlays (OL): Character Encoding and Format.
