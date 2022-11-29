@@ -40,7 +40,7 @@ Download the Excel OCA schema template[link when available].
 > 2. Format: [0-9]{3}
 > 3. Entry codes: 501&#124;527
 > 4. In the language tab for Entry: "501:Carniolan honey bee&#124;527:Russian honey bee" for English and "501:Abeille de Carniole&#124;527:Abeille russe" for French
-> 
+
 # Convert from Excel to OCA
 
 The [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) is currently hosted at Human Colossus Foundation (HCF) in the first phase of development. Upload the Excel document into the parser to create the OCA Bundle. 
