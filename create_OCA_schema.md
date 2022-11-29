@@ -23,7 +23,7 @@ Below is an example schema that has been entered into the OCA template. By follo
 All Capture Base (CB) fields are required as well as two Overlays (OL): Character Encoding and Format.
 
 ## Classification
-On the Main tab, under Classification you can add classifications for each attribute. This overlay is not standardized but it is recommended to be in the format system:type. For example, to add classifications for sustainable development goals for each attribute you can use "SDG:15"
+On the Main tab, under Classification you can add classifications for each attribute. This overlay is not standardized but it is recommended to be in the format system:type. For example, to add classifications for [sustainable development goals](https://unstats.un.org/sdgs/indicators/indicators-list/) for each attribute you can use "SDG:15"
 
 ## Attribute Names
 On the Main tab, under Attribute Names add your unique list of attribute names, also known as variable names or your data column labels. Because this field may be used by many different computer systems we recommend to not include spaces and use under_scores or CamelCase instead.
