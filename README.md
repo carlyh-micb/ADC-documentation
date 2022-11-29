@@ -4,6 +4,6 @@
 Here you can learn about topics related to working with agri-food research data within the Agri-food Data Canada ecosystem.
 
 * [Introduction to the Semantic Engine](semantic_engine.md)
-* [Create an OCA Schema with details](create_OCA_schema.md)
-* [OCA schema creation step-by-step ](create_OCA_list.md)
+* [Create an OCA Schema (detailed instructions)](create_OCA_schema.md)
+* [Create an OCA schema step-by-step (brief instructions)](create_OCA_list.md)
 * [Identifiers and SAIDs](identifiers_and_saids.md)
