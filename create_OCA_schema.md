@@ -46,7 +46,7 @@ With Flagged Attributes marked Y all corresponding data can be treated as high-r
 ## Character encoding and format
 Character Encoding is on the Main tab. The recommended choice is utf-8 (Unicode Transformation Format – 8 bits) unless there is a very specific reason for this to be different.
 
-The Format Overlay defines the input and display format of the data field. 
+The Format Overlay defines the input and display format of the data field. This will be very important for data validation which is the first step in making sure you data is accurate. Data validation is when you check for incorrect values, for example you want to make sure that there are no negative measurements allowed, or no zeros or numbers greater than 1000, or no null values etc.
 
 Types of formats are: YYYY-MM-DD for date, image/jpeg, [A-Z0-9]{8} (8 character long alpha-numeric entry). If left blank the default is text.
 
