@@ -26,7 +26,7 @@ All Capture Base (CB) fields are required as well as two Overlays (OL): Characte
 On the Main tab, under Classification you can add classifications for each attribute. This overlay is not standardized but it is recommended to be in the format system:type. For example, to add classifications for sustainable development goals for each attribute you can use "SDG:15"
 
 ## Attribute Names
-On the Main tab, under Attribute Names add your unique list of attribute names which can be the column label (or a simplified version of the column label). Because this field may be used by many different computer systems we recommend to not include spaces and use underscores or CamelCase instead.
+On the Main tab, under Attribute Names add your unique list of attribute names, also known as variable names or your data column labels. Because this field may be used by many different computer systems we recommend to not include spaces and use under_scores or CamelCase instead.
 
 ## Attribute Types
 On the Main tab specify the Attribute Type, which should be one of the following:
@@ -58,17 +58,17 @@ To limit data input to only a select number of choices (like in a drop-down menu
 3. Entry Code: write short names or numbers coding for the items in the list (separated by the pipe &#124; symbol)
 4. In each language tab for Entry give more human-readable labels matching each Entry Code to a language specific label
 
-Example 1: to limit gender entry to one of three choices
-1. Attribute Type: array[text] 
-2. Format: [A-Z]{1}
-3. Entry codes: M&#124;F&#124;X 
-4. In the language tab for Entry: “M:Male&#124;F:Female&#124;X:Other” for English and “M:Masculin&#124;F:Féminin&#124;X:Autre” for French
+>Example 1: to limit gender entry to one of three choices
+>1. Attribute Type: array[text] 
+>2. Format: [A-Z]{1}
+>3. Entry codes: M&#124;F&#124;X 
+>4. In the language tab for Entry: “M:Male&#124;F:Female&#124;X:Other” for English and “M:Masculin&#124;F:Féminin&#124;X:Autre” for French
 
-Example 2: to limit bee types to only two choices
-1. Attribute Type: Array[Numeric]
-2. Format: [0-9]{3}
-3. Entry codes: 501&#124;527
-4. In the language tab for Entry: "501:Carniolan honey bee&#124;527:Russian honey bee" for English and "501:Abeille de Carniole&#124;527:Abeille russe" for French
+>Example 2: to limit bee types to only two choices
+>1. Attribute Type: Array[Numeric]
+>2. Format: [0-9]{3}
+>3. Entry codes: 501&#124;527
+>4. In the language tab for Entry: "501:Carniolan honey bee&#124;527:Russian honey bee" for English and "501:Abeille de Carniole&#124;527:Abeille russe" for French
 
 ## Adding language specific labels and more information
 Each language specific tab is where you add language specific details to your schema. 
