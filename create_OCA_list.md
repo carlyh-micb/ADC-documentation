@@ -20,7 +20,7 @@ Download the Excel OCA schema template[link when available].
       - Array [attribute type]: a data type that defines a structure that holds several data items or elements of the same data type.
    4. Enter the **Character** (recommendation UTF-8)
    5. Enter the **Format**
-      - note: default type is text. Check this page for detailed examplexs.
+      - note: default type is text. Check this page(not yet developed) for detailed examples.
    6. For each language tab enter the **Label** for each Attribute
    7. For each language tab enter descriptions of the attributes into **Information**
 4. To limit data entry to a choice from a list (i.e. create a drop-down menu)
