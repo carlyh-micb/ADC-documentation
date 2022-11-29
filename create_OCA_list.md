@@ -8,21 +8,21 @@ Download the Excel OCA schema template[link when available].
 1. Enter schema metadata onto READ ME tab (Title, schema included, contact information etc). This is for your records.
 2. On the language tab (en_CA and/or fr_CA) for columns enter the schema name in **OL-MN:Meta [Form Name]** and schema description in **OL-MD: Meta[Form Description]**
 3. For each column of your dataset on the Main tab:
-   1. Enter the **Attribute Name** (column header)
-      - examples are CollectionDate, Concentration, InsectType, SampleLocation
+   1. Enter the **Attribute Name** (aka variable name, data column header etc.)
+      - examples are CollectionDate, Concentration, Insect_Type, SampleLocation, gene_name etc.
    2. Enter the **Attribute Type**. Choose from:      
-      - Text: a data type that defines a human-readable sequence of characters and the words they form.
-      - Numeric: a data type that defines anything relating to or containing numbers.
-      - Reference: a data type that defines a Self-Addressing IDentifier (SAID) that references a set of attributes through its associated parent.
-      - Boolean: a data type where the data only has two possible variables: true or false.
-      - Binary: a data type that defines a binary code signal, a series of electrical pulses representing numbers, characters, and performed operations.
-      - DateTime: a data type that defines dates and/or times. Common formats include dates (e.g., YYYY-MM-DD), times (e.g., hh:mm:ss), dates and times concatenated (e.g., YYYY-MM-DDThh:mm:ss.sss+zz:zz), and durations (e.g., PnYnMnD).
-      - Array [attribute type]: a data type that defines a structure that holds several data items or elements of the same data type.
+      - *Text*: a data type that defines a human-readable sequence of characters and the words they form.
+      - *Numeric*: a data type that defines anything relating to or containing numbers.
+      - *Reference*: a data type that defines a Self-Addressing IDentifier (SAID) that references a set of attributes through its associated parent.
+      - *Boolean*: a data type where the data only has two possible variables: true or false.
+      - *Binary*: a data type that defines a binary code signal, a series of electrical pulses representing numbers, characters, and performed operations.
+      - *DateTime*: a data type that defines dates and/or times. Common formats include dates (e.g., YYYY-MM-DD), times (e.g., hh:mm:ss), dates and times concatenated (e.g., YYYY-MM-DDThh:mm:ss.sss+zz:zz), and durations (e.g., PnYnMnD).
+      - *Array* [attribute type]: a data type that defines a structure that holds several data items or elements of the same data type.
    4. Enter the **Character** (recommendation UTF-8)
    5. Enter the **Format**
       - note: default type is text. Check this page(not yet developed) for detailed examples.
-   6. For each language tab enter the **Label** for each Attribute
-   7. For each language tab enter descriptions of the attributes into **Information**
+   6. For each language tab enter the **Label** for each Attribute. A label can be language specific and longer if needed.
+   7. For each language tab enter descriptions of the attributes into **Information**. Descriptions can be language specific.
 4. To limit data entry to a choice from a list (i.e. create a drop-down menu)
      1. **Attribute Type**: use array[text] or array[numeric] for the Attribute Type 
      2. **Format**: the format for the entry code
@@ -40,5 +40,13 @@ Download the Excel OCA schema template[link when available].
 > 2. Format: [0-9]{3}
 > 3. Entry codes: 501&#124;527
 > 4. In the language tab for Entry: "501:Carniolan honey bee&#124;527:Russian honey bee" for English and "501:Abeille de Carniole&#124;527:Abeille russe" for French
+> 
+# Convert from Excel to OCA
+
+The [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) is currently hosted at Human Colossus Foundation (HCF) in the first phase of development. Upload the Excel document into the parser to create the OCA Bundle. 
+
+You can open the archive and view the JSON code that describes each Capture Base and Overlay in any text viewer. The [SAID](identifiers_and_saids.md) identifiers for Overlays, Capture Base and the entire OCA Bundle are the filenames. The "meta.json" file lists all Overlays and Capture Base including their SAID identifiers. 
+
+# Detailed OCA Creation Instructions
 
 [Follow this link to more detailed OCA schema creation instructions](create_OCA_schema.md).
