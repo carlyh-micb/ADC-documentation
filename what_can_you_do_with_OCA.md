@@ -1,7 +1,7 @@
 # What to do with your OCA bundle
 
 ## View the contents of the bundle
-You can view the contents by opening the .zip file and viewing the included JSON files using a text editor such as Windows Notepad.
+You can view the contents by opening the .zip file and viewing the included JSON files using a text editor such as Windows Notepad, but since JSON files do not usually contain line breaks it is easier to read using a [JSON viewer](https://jsonformatter.curiousconcept.com/).
 
 ## Archive the OCA bundle together with the associated data
 The simplest thing you can do with your OCA schema is to save the bundle and Excel template with your data on a local or lab associated drive. This will help you or others understand your data when referenced later. When it comes time to submit data into a repository or journal you will be able to quickly and accurately describe the data using the requested format by looking at the OCA schema.
