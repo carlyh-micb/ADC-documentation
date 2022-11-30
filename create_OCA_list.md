@@ -47,6 +47,12 @@ The [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) is curre
 
 You can open the archive and view the JSON code that describes each Capture Base and Overlay in any text viewer. The [SAID](identifiers_and_saids.md) identifiers for Overlays, Capture Base and the entire OCA Bundle are the filenames. The "meta.json" file lists all Overlays and Capture Base including their SAID identifiers. 
 
+# Entering schema information
+Below is an example schema that has been entered into the OCA template. By following the instructions you will be able to create your own schema.
+
+![Example of entering capture base data into the OCA schema template.](/pictures/capture_base.png)
+![Example of entering english overlayd data into the OCA schema template.](/pictures/overlay_en.png)
+
 # Detailed OCA Creation Instructions
 
 [Follow this link to more detailed OCA schema creation instructions](create_OCA_schema.md).
