@@ -10,11 +10,11 @@ Download the Excel OCA schema template[link when available].
 
 When you enter data into this template, do not change the basic structure as the parser needs this structure to create the OCA schema bundle. For example, you can see that data entry of sheet Main starts on row 3 so you should not delete the rows above.
 
-The README tab is for your reference, and you should add metadata here (like title and contact information) which can help you understand and track your Excel schemas.
+The 'Start Here' tab is for your reference, and you should add metadata here (like title and contact information) which can help you understand and track your Excel schemas.
 
 
 # Entering schema information
-Below is an example schema that has been entered into the OCA template. By following the instructions you will be able to create your own schema.
+Below is an example schema that has been entered into the OCA template. By following the instructions you will be able to create your own schema. 
 
 ![Example of entering capture base data into the OCA schema template.](/pictures/capture_base.png)
 ![Example of entering english overlayd data into the OCA schema template.](/pictures/overlay_en.png)
@@ -84,6 +84,10 @@ These details will help make your schema more discoverable and can help people c
 Labels are more reader friendly labels of the attribute. If you are creating a questionnaire, the Label would be where you put the full text of your question.
 
 Information contains details to help users of your schema understand exactly what is being collected for each attribute. It helps to add context to your data and helps people using your schema know what kind of information they should be inputting into each field. These fields should be quite descriptive.
+
+# Other available Overlays
+
+You will notice there are many other OL (overlay) columns available in the spreadsheet template. You can continue to refine and improve your schema by adding detail in the future and we will be adding this documentation in the future as well.
 
 # Convert from Excel to OCA
 
