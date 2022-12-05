@@ -13,11 +13,11 @@ Data must be structured to be understood and a schema describes the structure of
 
 ![An example table of data whose column headers let us infer the meaning of the numbers in the columns. However, we need more information if we want to be able to reuse and understand the data in the table.](/pictures/semantic-engine-data-schema.png)
 
-For example, a schema can describe what information is contained within the columns of a dataset. Researchers can tune the detail of descriptions in their data schemas depending on their needs.
+For example, a schema can describe what information is contained within the columns of a dataset. Researchers can tune the detail of descriptions in their data schemas depending on their needs. We can represent a scheme in a table format like the example below:
 
 ![A table representation of the schema of an associated data table.](/pictures/semantic-engine-schema-table.png)
 
-The better a schema is, the more value it adds to the associated data set. Researchers and their collaborators can better document data and avoid misinterpreting data, which can lead to false assumptions in their research.
+The better a schema is, the more value it adds to the associated data sets. Researchers and their collaborators can better document data and avoid misinterpreting data, which can lead to false assumptions in their research.
 
 Better data schemas aid researchers in sharing data with the research community. Better documentation enables researchers to effectively communicate the context of the data to other users, ensuring that the information is used accurately. This is especially valuable in cross-disciplinary research where other users are less familiar with the conventions of a particular discipline.
 
