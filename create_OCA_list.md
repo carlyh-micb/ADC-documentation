@@ -11,8 +11,8 @@ Download the Excel OCA schema template[link when available].
 
 **Do not change the basic structure of the Excel sheet** as the parser needs this structure to create the OCA schema bundle. For example, you can see that data entry of sheet Main starts on row 3 so you should not delete the rows above.
 
-1. Enter schema metadata onto READ ME tab (Title, schema included, contact information etc). This is for your records.
-2. On the language tab (en_CA and/or fr_CA) for columns enter the schema name in **[Form Name]** and schema description in **[Form Description]**
+1. Enter schema metadata onto 'Start Here' tab (Title, schema included, contact information etc). This is for your records.
+2. On the language tab (en and/or fr) for columns enter the schema name in **[Form Name]** and schema description in **[Form Description]**
 3. For each column of your dataset on the Main tab:
    1. Enter the **Attribute Name** (aka variable name, data column header etc.)
       - examples are CollectionDate, Concentration, Insect_Type, SampleLocation, gene_name etc.
@@ -48,6 +48,8 @@ Download the Excel OCA schema template[link when available].
 > 2. Format: [0-9]{3}
 > 3. Entry codes: 501&#124;527
 > 4. In the language tab for Entry: "501:Carniolan honey bee&#124;527:Russian honey bee" for English and "501:Abeille de Carniole&#124;527:Abeille russe" for French
+
+5. You will notice there are many other OL (overlay) columns available in the spreadsheet template. You can continue to refine and improve your schema by adding detail in the future.
 
 # Convert from Excel to OCA
 
