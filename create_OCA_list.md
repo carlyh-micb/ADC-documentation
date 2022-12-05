@@ -1,12 +1,18 @@
 # Step by step instructions
 
+# Entering schema information
+Below is an example schema that has been entered into the OCA template. By following the instructions you will be able to create your own schema.
+
+![Example of entering capture base data into the OCA schema template.](/pictures/capture_base.png)
+![Example of entering english overlayd data into the OCA schema template.](/pictures/overlay_en.png)
+
 ## Creating an OCA schema – Excel template
 Download the Excel OCA schema template[link when available].
 
 **Do not change the basic structure of the Excel sheet** as the parser needs this structure to create the OCA schema bundle. For example, you can see that data entry of sheet Main starts on row 3 so you should not delete the rows above.
 
 1. Enter schema metadata onto READ ME tab (Title, schema included, contact information etc). This is for your records.
-2. On the language tab (en_CA and/or fr_CA) for columns enter the schema name in **OL-MN:Meta [Form Name]** and schema description in **OL-MD: Meta[Form Description]**
+2. On the language tab (en_CA and/or fr_CA) for columns enter the schema name in **[Form Name]** and schema description in **[Form Description]**
 3. For each column of your dataset on the Main tab:
    1. Enter the **Attribute Name** (aka variable name, data column header etc.)
       - examples are CollectionDate, Concentration, Insect_Type, SampleLocation, gene_name etc.
@@ -20,7 +26,9 @@ Download the Excel OCA schema template[link when available].
       - *Array* [attribute type]: a data type that defines a structure that holds several data items or elements of the same data type.
    4. Enter the **Character** (recommendation UTF-8)
    5. Enter the **Format**
-      - note: default type is text. Check this page(not yet developed) for detailed examples.
+      - note: default type is text.
+      - If you are unsure about format, leave it blank (default) for now.
+      - Check this page(not yet developed) for detailed examples.
    6. For each language tab enter the **Label** for each Attribute. A label can be language specific and longer if needed.
    7. For each language tab enter descriptions of the attributes into **Information**. Descriptions can be language specific.
 4. To limit data entry to a choice from a list (i.e. create a drop-down menu)
@@ -47,11 +55,6 @@ The [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) is curre
 
 You can open the archive and view the JSON code that describes each Capture Base and Overlay in any text viewer. The [SAID](identifiers_and_saids.md) identifiers for Overlays, Capture Base and the entire OCA Bundle are the filenames. The "meta.json" file lists all Overlays and Capture Base including their SAID identifiers. 
 
-# Entering schema information
-Below is an example schema that has been entered into the OCA template. By following the instructions you will be able to create your own schema.
-
-![Example of entering capture base data into the OCA schema template.](/pictures/capture_base.png)
-![Example of entering english overlayd data into the OCA schema template.](/pictures/overlay_en.png)
 
 # Detailed OCA Creation Instructions
 
