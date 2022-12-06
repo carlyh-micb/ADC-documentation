@@ -22,6 +22,8 @@ Below is an example schema that has been entered into the OCA template. By follo
 ## Required fields
 All Capture Base (CB) fields are required as well as two Overlays (OL): Character Encoding and Format.
 
+OCA schemas are very robust, you can start by adding minimal information and as you need you can add more details to your schema and complete more Overlays.
+
 ## Classification
 On the Main tab, under Classification you can add classifications for each attribute. This overlay is not standardized but it is recommended to be in the format system:type. For example, to add classifications for [sustainable development goals](https://unstats.un.org/sdgs/indicators/indicators-list/) for each attribute you can use "SDG:15"
 
