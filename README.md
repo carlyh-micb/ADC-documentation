@@ -11,3 +11,7 @@ Here you can learn about topics related to working with agri-food research data 
 * [Identifiers and SAIDs](identifiers_and_saids.md)
 
 [Feedback of creating a schema can be done in a Form](https://forms.office.com/Pages/ResponsePage.aspx?id=K6Fivq0soUml-oX08xVqfcxKJkze2nVHnEbvp9MCrIhUMjY3R0tTUDRTTU42RlBXMlAzRzdTSlo3RiQlQCN0PWcu).
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s4F1kEYeVEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
