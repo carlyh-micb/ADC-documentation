@@ -1,6 +1,6 @@
 # What is a Schema
 
-You recieve a data file from a colleague or you download the data from an instrument or database.
+You receive a data file from a colleague or you download the data from an instrument or database.
 
 "What is this data?". You see confusing column names. What are the units? What does this mean?
 
