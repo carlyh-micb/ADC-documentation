@@ -13,7 +13,7 @@ Data must be structured to be understood and a schema describes the structure of
 
 ![An example table of data whose column headers let us infer the meaning of the numbers in the columns. However, we need more information if we want to be able to reuse and understand the data in the table.](/pictures/semantic-engine-data-schema.png)
 
-For example, a schema can describe what information is contained within the columns of a dataset. Researchers can tune the detail of descriptions in their data schemas depending on their needs. We can represent a scheme in a table format like the example below:
+For example, a schema can describe what information is contained within the columns of a dataset. Researchers can tune the detail of descriptions in their data schemas depending on their needs. We can represent a schema in a table format like the example below:
 
 ![A table representation of the schema of an associated data table.](/pictures/semantic-engine-schema-table.png)
 
