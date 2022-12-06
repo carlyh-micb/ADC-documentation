@@ -9,3 +9,5 @@ Here you can learn about topics related to working with agri-food research data 
 * [Create an OCA Schema step-by-step (brief instructions)](create_OCA_list.md)
 * [What can you do with OCA](what_can_you_do_with_OCA.md)
 * [Identifiers and SAIDs](identifiers_and_saids.md)
+
+[Feedback of creating a schema can be done in a Form](https://forms.office.com/Pages/ResponsePage.aspx?id=K6Fivq0soUml-oX08xVqfcxKJkze2nVHnEbvp9MCrIhUMjY3R0tTUDRTTU42RlBXMlAzRzdTSlo3RiQlQCN0PWcu).
