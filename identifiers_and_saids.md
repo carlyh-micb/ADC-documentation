@@ -22,8 +22,8 @@ For the OCA schema, all parts of the schema and the schema bundle itself are giv
 
 # Benefits of using SAIDs for Research Objects 
 
-Self-Addressing Identifiers are very useful for tracking digital resources and they can be considered digital fingerprints. If you find two schemas in two different locations (perhaps one is a published standard and the other is published with a dataset), you can compare the SAIDs (i.e. digital fingerprints) of both documents and if the SAIDs are the same, then the documents are also identical. 
+Self-Addressing Identifiers are very useful for tracking digital resources and they can be considered digital fingerprints. If you find two schemas in two different locations (perhaps one is a published standard and the other is published with a dataset), you can compare the SAIDs of each schema (i.e. digital fingerprints) and if the schema SAIDs are the same, then the schemas are identical. 
 
-Alternatively, if you only have a SAID reference, you can find the corresponding research object (like the OCA bundle or Capture Base) by looking for the identical SAID within those documents. If the SAIDs are the same, then the documents are also identical.  
+Alternatively, if you only have a SAID reference for a schema, you can find the corresponding schema (or schema part) by looking for the identical SAID of other schemas. If the SAIDs are the same, then the documents are also identical.  
 
-You can confirm that the SAID is legitimate by performing your own SAID hashing of the research object. By comparing the freshly generated SAID to the claimed SAID you can check if the document or SAID has been altered. Agri-food Data Canada is currently developing a SAID verifier where you can upload an OCA schema and confirm the SAID.
+You can confirm that the SAID is legitimate by performing your own SAID hashing of the schema. By comparing the freshly generated SAID to the claimed SAID you can check if the document or SAID has been altered. Agri-food Data Canada is currently developing a SAID verifier where you can upload an OCA schema and confirm the SAID of the schema.
