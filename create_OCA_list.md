@@ -11,7 +11,7 @@ Download the Excel OCA schema template[link when available].
 
 **Do not change the basic structure of the Excel sheet** as the parser needs this structure to create the OCA schema bundle. For example, you can see that data entry of sheet Main starts on row 3 so you should not delete the rows above.
 
-1. Enter schema metadata onto 'Start Here' tab (Title, schema included, contact information etc). This is for your records.
+1. Enter schema metadata onto 'Start Here' tab (Title, schema included, contact information etc). This is for your records so in the future when you (or someone else) looks at this Excel sheet you know what it is.
 2. On the language tab (en and/or fr) for columns enter the schema name in **[Form Name]** and schema description in **[Form Description]**
 3. For each column of your dataset on the Main tab:
    1. Enter the **Attribute Name** (aka variable name, data column header etc.)
@@ -24,7 +24,7 @@ Download the Excel OCA schema template[link when available].
       - *Binary*: a data type that defines a binary code signal, a series of electrical pulses representing numbers, characters, and performed operations.
       - *DateTime*: a data type that defines dates and/or times. Common formats include dates (e.g., YYYY-MM-DD), times (e.g., hh:mm:ss), dates and times concatenated (e.g., YYYY-MM-DDThh:mm:ss.sss+zz:zz), and durations (e.g., PnYnMnD).
       - *Array* [attribute type]: a data type that defines a structure that holds several data items or elements of the same data type.
-   4. Enter the **Character** (recommendation UTF-8)
+   4. Enter the **Character** (if you don't know, you should pick UTF-8)
    5. Enter the **Format**
       - note: default type is text.
       - If you are unsure about format, leave it blank (default) for now.
