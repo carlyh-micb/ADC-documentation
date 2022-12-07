@@ -31,7 +31,7 @@ Download the Excel OCA schema template[link when available].
       - Check this page(not yet developed) for detailed examples.
    6. For each language tab enter the **Label** for each Attribute. A label can be language specific and longer if needed.
    7. For each language tab enter descriptions of the attributes into **Information**. Descriptions can be language specific.
-4. To limit data entry to a choice from a list (i.e. create a drop-down menu)
+## If you want to limit data entry to a choice from a list (i.e. create a drop-down menu)
      1. **Attribute Type**: use array[text] or array[numeric] for the Attribute Type 
      2. **Format**: the format for the entry code
      3. **Entry Code**: write short names or numbers coding for the items in the list (separated by the pipe &#124; symbol)
