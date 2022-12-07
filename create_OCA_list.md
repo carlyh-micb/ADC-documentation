@@ -31,7 +31,9 @@ Download the Excel OCA schema template[link when available].
       - Check this page(not yet developed) for detailed examples.
    6. For each language tab enter the **Label** for each Attribute. A label can be language specific and longer if needed.
    7. For each language tab enter descriptions of the attributes into **Information**. Descriptions can be language specific.
+   8. You will notice there are many other OL (overlay) columns available in the spreadsheet template. You can continue to refine and improve your schema by adding detail in the future.
 ## If you want to limit data entry to a choice from a list (i.e. create a drop-down menu)
+
      1. **Attribute Type**: use array[text] or array[numeric] for the Attribute Type 
      2. **Format**: the format for the entry code
      3. **Entry Code**: write short names or numbers coding for the items in the list (separated by the pipe &#124; symbol)
@@ -49,7 +51,6 @@ Download the Excel OCA schema template[link when available].
 > 3. Entry codes: 501&#124;527
 > 4. In the language tab for Entry: "501:Carniolan honey bee&#124;527:Russian honey bee" for English and "501:Abeille de Carniole&#124;527:Abeille russe" for French
 
-5. You will notice there are many other OL (overlay) columns available in the spreadsheet template. You can continue to refine and improve your schema by adding detail in the future.
 
 # Convert from Excel to OCA
 
