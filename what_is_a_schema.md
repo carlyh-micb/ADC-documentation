@@ -6,7 +6,7 @@ You receive a data file from a colleague or you download the data from an instru
 
 To help you understand and use the data you need a well documented data schema. A good schema will tell you what the column labels are and what they mean. It will tell you the units and it will tell you what type of data is in each column.
 
-In short, a data schema is how the data is organized. All data follows some kind of data schema whether it is explicit or not. Good schemas are explicitly documented, better schemas document useful details, and really great schemas are prepared for the future and can be read and acted on by computers.
+In short, a data schema represents a 'blueprint' of your data. All data follows some kind of data schema whether it is explicit or not. Good schemas are explicitly documented, better schemas document useful details, and really great schemas are prepared for the future and can be read and acted on by computers.
 
 > The better the schema and the more detail it contains, the more value the associated data has.
 
