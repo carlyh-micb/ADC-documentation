@@ -5,14 +5,13 @@ Schemas are a way to document your data and help make it more FAIR (Findable, Ac
 # 1. Introduction to the Rationale
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s4F1kEYeVEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 # 2. What is a Schema
 
 [Learn what a schema is](what_is_a_schema.md) and how it can apply to your research.
 
 # 3. Write Your First Schema
 
-Following these instructions(link to come) you will download the schema template (an Excel file), and using your dataset you will enter in minimal schema information in this first iteration.
+[Following these instructions](create_first_schema.md) you will download the schema template (an Excel file), and based on the dataset you are describing you will enter in minimal schema information in this first iteration.
 
 ## What can you do with this schema?
 * With this Excel document that you create you can store it beside (but separate from) your dataset. 
