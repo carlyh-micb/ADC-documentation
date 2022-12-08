@@ -2,6 +2,8 @@
 
 Here you can learn about topics related to working with agri-food research data within the Agri-food Data Canada ecosystem.
 
+[Follow a pathway and create a schema](Pathway_index.md)!
+
 * [What is a schema](what_is_a_schema.md)
 * [Introduction to the Semantic Engine](semantic_engine.md)
 * [Create an OCA Schema (detailed instructions)](create_OCA_schema.md)
