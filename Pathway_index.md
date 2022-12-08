@@ -27,9 +27,9 @@ Read our [introduction to schemas and the Semantic Engine](semantic_engine.md).
 
 # 5. Create an OCA Schema from Your Template
 
-Using the Excel schema that you created when you wrote your first schema, you can use the OCA parser to generate the OCA Schema Bundle.
+Using the Excel schema that you created when you wrote your first schema, you can [use the OCA parser to generate the OCA Schema Bundle](parse_OCA_schema.md).
 
-Your Excel schema is still a human readable version of the schema, but the OCA Schema Bundle is a machine actionable version of your schema and includes special SAID identifiers for schema version.
+Your Excel schema is still a human readable version of the schema, but the OCA Schema Bundle is a machine actionable version of your schema and includes special SAID identifiers helpful for schema versioning.
 
 # 6. Read about SAID Identifiers
 
