@@ -32,11 +32,11 @@ On the Main tab specify the Attribute Type, which should be one of the following
 ## Flagged Attribute
 On the Main tab specify Flagged Attribute for sensitive data (e.g. names of people, government identification, birth date etc.). Marking an entry with a “Y” will allow you to flag any attributes where identifying information about entities may be captured. 
 
-With Flagged Attributes marked Y all corresponding data can be treated as high-risk throughout the data lifecycle and encrypted or removed at any stage, reducing the risk of re-identification attacks against blinded datasets.
+With Flagged Attributes marked Y all corresponding data can be treated as high-risk throughout the data lifecycle and encrypted or removed at any stage.
 
 ## Character
 
-Character Encoding is on the Main tab. The recommended choice is utf-8 (Unicode Transformation Format – 8 bits) unless there is a very specific reason for this to be different.
+The recommended Character Encoding is utf-8 (Unicode Transformation Format – 8 bits) unless you are familiar with a reason for this to be different.
 
 ## Unit
 
