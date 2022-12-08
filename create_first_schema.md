@@ -1,7 +1,9 @@
 # Download the Excel Schema Template
 Download the Excel schema template[link when available].
 
-When you enter data into this template, do not change the basic structure because this Excel sheet is the template that is parsed to generate the OCA schema bundle. For example, you can see that data entry of sheet Main starts on row 3 so you should not delete the rows above.
+Don't worry about filling out the entire spreadsheet, by following these steps you will create enough information for a useful, minimal schema.
+
+When you enter data into this template, do not change the basic structure because this Excel sheet is the template that can be parsed to generate the OCA schema bundle. For example, you can see that data entry of sheet Main starts on row 3 so you should not delete the rows above.
 
 # Start Here Sheet
 
