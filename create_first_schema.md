@@ -56,7 +56,7 @@ This is where you enter the description of your schema. It is most likely the sa
 
 ## Label
 
-It is most likely that your label will be the same as your Attribute Name (if they are the same language). This is your opportunity to give language specific labels to attribute names (such as 'Name' in English or 'Nom' in French).
+It is most likely that your label will be the same as your Attribute Name (if they are the same language). If your Attribute Name is really cryptic (e.g. 'sC') you can give this a better (brief) label like "Substrate Concentration". This is also your opportunity to give language specific labels to attribute names (such as 'Name' in English or 'Nom' in French).
 
 ## Description
 
