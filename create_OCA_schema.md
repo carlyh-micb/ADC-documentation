@@ -55,7 +55,7 @@ Types of formats are: YYYY-MM-DD for date, image/jpeg, [A-Z0-9]{8} (8 character 
 ## Limiting data entry to a choice from a list (i.e. drop-down menu)
 To limit data input to only a select number of choices (like in a drop-down menu) for an attribute use:
 
-1. Attribute Type: use [text] or [numeric] for the Attribute Type (for single selection, for multiple selection use array[text] or array[numeric]
+1. Attribute Type: use [text] or [numeric] for the Attribute Type (for single selection, for multiple selection use array[text] or array[numeric])
 2. Format: the format for the entry code
 3. Entry Code: write short names or numbers coding for the items in the list (separated by the pipe &#124; symbol)
 4. In each language tab for Entry give more human-readable labels matching each Entry Code to a language specific label
